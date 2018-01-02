@@ -19,20 +19,22 @@ body {
 
 .dv-logo {
 
-  display: inline-block;
-  margin: 20px;
+  display: block;
+  margin-left: 3%;
+  margin-top: 7%;
 
 }
 
 .logo {
   border: $primary-border;
   padding: 5px;
-  width: 80%;
+  width: 45%;
 }
 
 .dv-navbar {
-  display: inline-block;
+  display: block;
   margin: auto 0 auto auto;
+
 
 }
 
@@ -42,18 +44,19 @@ body {
 }
 
 .l-nav {
-  display: inline-block;
+  display: block;
   font-size: 20px;
   padding: 10px;
 
 }
 
 .dv-nav {
-  display: flex;
+  background-color: black;
+  width: 25%;
 }
 
 .a-nav {
-  color: $primary-color;
+  color: #fff;
   font-size: $default-size;
   font-weight: bold;
 
@@ -66,8 +69,8 @@ body {
 }
 
 .contact {
-  border: 2px solid;
-  padding: 10px;
+  // border: 2px solid;
+  // padding: 10px;
 
   &:hover {
     background-color: $second-color;
@@ -78,7 +81,7 @@ body {
 }
 
 .main-content {
-  display: flex;
+  // display: flex;
   height: 60vh;
 }
 
@@ -89,4 +92,8 @@ body {
   font-weight: bold;
   margin: auto;
   padding: 15px;
+}
+
+.container-fluid {
+  margin-left: 0;
 }
