@@ -1,0 +1,71 @@
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+html #override,
+body #override {
+  background-color: #EFF6F7;
+}
+
+#logo {
+  width: 8%;
+  height: 8%;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: .5em;
+}
+
+.div-navbar-left {
+  flex: 1;
+  margin: auto;
+}
+
+.div-navbar-right {
+  margin: auto;
+}
+
+#nav-ul {
+  display: inline;
+}
+
+.nav-li {
+  display: inline-block;
+  list-style: none;
+  padding: 1em;
+}
+
+.nav-li .nav-li-a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-li .nav-li-a:hover {
+  border-bottom: 2px solid black;
+}
+
+.headline1 {
+  background-color: darkslateblue;
+  color: white;
+  width: 15%;
+}
+
+.headline2 {
+  background-color: darkslateblue;
+  color: white;
+  width: 37%;
+}
+
+.headline3 {
+  background-color: darkslateblue;
+  color: white;
+  width: 8%;
+}
+
+.center-head {
+  text-align: center;
+}

@@ -1,8 +1,7 @@
 $primary-color: #000;
 $primary-inverse: #fffaf0;
-$second-color: #333;
-$primary-border: solid 4px $primary-color;
 $default-size: 16px;
+$fontstack: 'helvetica', sans-serif;
 
 html,
 body {
@@ -10,90 +9,73 @@ body {
   margin: 0;
   padding: 0;
 
+#override {
+  background-color: #EFF6F7;
+}
 }
 //---------------------------------------------------------------------------------------------------------------------------//
-#override {
-  background-image: url('https://static.pexels.com/photos/28786/pexels-photo-28786.jpg');
-  background-size: cover;
+#logo {
+  width: 8%;
+  height: 8%;
 }
 
-.dv-logo {
-
-  display: block;
-  margin-left: 3%;
-  margin-top: 7%;
-
+.wrapper {
+  display: flex;
+  margin-top: .5em;
+}
+.div-navbar-left{
+  flex: 1;
+  margin: auto;
 }
 
-.logo {
-  border: $primary-border;
-  padding: 5px;
-  width: 45%;
+.div-navbar-right{
+  margin: auto
 }
 
-.dv-navbar {
-  display: block;
-  margin: auto 0 auto auto;
-
-
+#nav-ul{
+  display: inline;
+  
+  
 }
+  .nav-li{
+    display: inline-block;
+    list-style: none;
+    padding: 1em;
+    
 
-.u-nav {
-  margin: 0;
-  padding: 0;
-}
 
-.l-nav {
-  display: block;
-  font-size: 20px;
-  padding: 10px;
-
-}
-
-.dv-nav {
-  background-color: black;
-  width: 25%;
-}
-
-.a-nav {
-  color: #fff;
-  font-size: $default-size;
-  font-weight: bold;
-
-  &:hover {
-    border-bottom: 3px solid $second-color;
-    color: $second-color;
-    text-decoration: none;
+    .nav-li-a{
+      text-decoration: none;
+      color: black;
+      &:hover{
+        border-bottom: 2px solid black; 
+      }
+    }
   }
 
-}
 
-.contact {
-  // border: 2px solid;
-  // padding: 10px;
+  // begin main content of home
 
-  &:hover {
-    background-color: $second-color;
-    border: $primary-border;
-    color: $primary-inverse;
-    text-decoration: none;
-    }
-}
+  .headline1 {
+    background-color: darkslateblue;
+    color: white;
+    width: 15%;
+  }
+ 
+  .headline2{
+    background-color: darkslateblue;
+    color: white;
+    width: 37%;
+  }
 
-.main-content {
-  // display: flex;
-  height: 60vh;
-}
+  .headline3{
+    background-color: darkslateblue;
+    color: white;
+    width: 8%;
+  }
 
-.cntr-piece {
-//  border: 5px solid;
-  display: inline-block;
-  font-size: 50px;
-  font-weight: bold;
-  margin: auto;
-  padding: 15px;
-}
 
-.container-fluid {
-  margin-left: 0;
-}
+// begin competencies section
+  .center-head{
+    text-align: center;
+  }
