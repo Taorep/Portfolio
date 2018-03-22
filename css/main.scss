@@ -1,4 +1,5 @@
 $primary-color: #000;
+$secondcolor: lightcoral;
 $primary-inverse: #fffaf0;
 $default-size: 16px;
 $fontstack: 'helvetica', sans-serif;
@@ -10,7 +11,10 @@ body {
   padding: 0;
 
 #override {
-  background-color: #EFF6F7;
+  background-image: url("../create.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 }
 //---------------------------------------------------------------------------------------------------------------------------//
@@ -41,41 +45,35 @@ body {
     display: inline-block;
     list-style: none;
     padding: 1em;
-    
-
-
+    #contact-button{
+      background-color: $secondcolor;
+      padding:1em;
+      border: 2px solid $secondcolor;
+      &:hover{
+        background-color: transparent;
+        border: 2px solid $secondcolor;
+      }
+    }
     .nav-li-a{
       text-decoration: none;
-      color: black;
+      color: #fff;
+      font-weight:bold;
       &:hover{
-        border-bottom: 2px solid black; 
+        color:$secondcolor; 
       }
     }
   }
 
-
   // begin main content of home
-
-  .headline1 {
-    background-color: darkslateblue;
-    color: white;
-    width: 15%;
-  }
- 
-  .headline2{
-    background-color: darkslateblue;
-    color: white;
-    width: 37%;
-  }
-
-  .headline3{
-    background-color: darkslateblue;
-    color: white;
-    width: 8%;
-  }
-
-
-// begin competencies section
-  .center-head{
+.jumbotron{
+  background-color: transparent;
+  font-family: 'Permanent Marker', cursive;
+}
+  .headline1,
+  .headline2 {
+    color: #fff;
     text-align: center;
   }
+ 
+  
+

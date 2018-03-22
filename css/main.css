@@ -7,7 +7,10 @@ body {
 
 html #override,
 body #override {
-  background-color: #EFF6F7;
+  background-image: url("../create.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 #logo {
@@ -39,33 +42,34 @@ body #override {
   padding: 1em;
 }
 
+.nav-li #contact-button {
+  background-color: lightcoral;
+  padding: 1em;
+  border: 2px solid lightcoral;
+}
+
+.nav-li #contact-button:hover {
+  background-color: transparent;
+  border: 2px solid lightcoral;
+}
+
 .nav-li .nav-li-a {
   text-decoration: none;
-  color: black;
+  color: #fff;
+  font-weight: bold;
 }
 
 .nav-li .nav-li-a:hover {
-  border-bottom: 2px solid black;
+  color: lightcoral;
 }
 
-.headline1 {
-  background-color: darkslateblue;
-  color: white;
-  width: 15%;
+.jumbotron {
+  background-color: transparent;
+  font-family: 'Permanent Marker', cursive;
 }
 
+.headline1,
 .headline2 {
-  background-color: darkslateblue;
-  color: white;
-  width: 37%;
-}
-
-.headline3 {
-  background-color: darkslateblue;
-  color: white;
-  width: 8%;
-}
-
-.center-head {
+  color: #fff;
   text-align: center;
 }
