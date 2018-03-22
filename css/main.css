@@ -19,21 +19,25 @@ body #override {
 }
 
 .wrapper {
-  display: flex;
-  margin-top: .5em;
+  margin-bottom: 0;
 }
 
-.div-navbar-left {
-  flex: 1;
-  margin: auto;
+.wrapper .div-navbar-left,
+.wrapper .div-navbar-right {
+  text-align: center;
 }
 
-.div-navbar-right {
-  margin: auto;
+.logo {
+  display: inline-block;
+}
+
+.logo #logo {
+  width: 70%;
 }
 
 #nav-ul {
-  display: inline;
+  display: inline-block;
+  padding: 0;
 }
 
 .nav-li {
@@ -66,10 +70,12 @@ body #override {
 .jumbotron {
   background-color: transparent;
   font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
 }
 
 .headline1,
 .headline2 {
   color: #fff;
   text-align: center;
+  font-size: 300px;
 }

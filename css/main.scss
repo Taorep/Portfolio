@@ -24,20 +24,28 @@ body {
 }
 
 .wrapper {
-  display: flex;
-  margin-top: .5em;
-}
-.div-navbar-left{
-  flex: 1;
-  margin: auto;
+  margin-bottom: 0;
+
+  .div-navbar-left,
+  .div-navbar-right{
+    text-align: center;
+  }
+
+ 
 }
 
-.div-navbar-right{
-  margin: auto
+
+.logo {
+  display: inline-block;
+
+  #logo{
+    width:70%;
+  }
 }
 
 #nav-ul{
-  display: inline;
+  display: inline-block;
+  padding: 0;
   
   
 }
@@ -68,6 +76,7 @@ body {
 .jumbotron{
   background-color: transparent;
   font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
 }
   .headline1,
   .headline2 {
